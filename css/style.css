@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main{
+    padding: 10px;
+}
+.site{
+    display: flex;
+}
+.sidebar{
+    position: absolute;
+    background-color: #05fcdb;
+    height: 100vh;
+    padding : 30px;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav ul{
+    list-style: none;
+    font-size: 30px;
+}
+.sidebar nav ul li{
+    padding: 31px 0px;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.infoBox{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;  
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 65px;
+}
+.name{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 50px;
+}
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.btn{
+    margin: 20px;
+}
+.buttons{
+    border-radius: 25px;
+    padding: 8px 25px;
+    background: aquamarine;
+    font-size: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.btn button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.devPic img{
+    height: 60vh;
+}
+
+/* starting of contact form */
+
+.contactForm{
+    padding: 0px 34px;
+    padding-top: 40px;
+}
+.contactForm h1{
+    padding: 12px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.contactForm div{
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm div input{
+    padding: 2px;
+    border-radius: 5px;
+    width: 25vw;
+    margin: 10px 0px 0px 0px;
+}
+#emailHelp{
+    padding: 0px;
+    padding-top: 2px;
+    font-size: 14px;
+    color: #343434;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 10px;
+    margin: 2px;
+}
+.btn-sm{
+    margin: 10px 0px;
+    width: 100px;
+    border-radius: 25px;
+    padding: 8px 25px;
+    background: aquamarine;
+    font-size: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+/* Intro page */
+.intro{
+    padding-left: 40px;
+    width: 80vw;
+}
+.intro h2{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    margin: 12px;
+    font-size: 20px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    padding-left: 12px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-p{
+    margin-left: 10px;
+    font-weight: 800;
+    border: 1px solid black;
+    height: 10px;
+    width: 270px;
+    background-color: rgb(0, 182, 0);
+}
+.skill-m{
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 10px;
+    width: 135px;
+    background-color: rgb(112, 255, 143);
+}
+.skill-n{
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 10px;
+    width: 100px;
+    background-color: rgb(255, 238, 0);
+}
+.softKnown{
+    display: flex;
+}
+.skillIcons img{
+    width: 200px;
+}
+/* responsive */
+
+.sidebarGo{
+    transform: translate(-534px, 0px);
+    position :absolute;
+    
+}
+@media (max-width : 1615px){
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+}
+.ham{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.cross{
+    
+    margin-left: 160px;
+}
+.hamburger img{
+    width: 24px;
+}
